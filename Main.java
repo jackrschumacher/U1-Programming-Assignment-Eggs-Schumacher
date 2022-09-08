@@ -9,7 +9,7 @@ class Main {
 
     int eggsPurchased = input.nextInt();
 
-    system.out.println("You are buying" + eggsPurchased + " eggs");
+    System.out.println("You are buying " + eggsPurchased + " eggs");
 
 
 
