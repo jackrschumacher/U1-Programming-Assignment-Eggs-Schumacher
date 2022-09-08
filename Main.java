@@ -11,9 +11,13 @@ class Main {
     
     System.out.println("You are buying " + eggsPurchased + " eggs");
 
+    int dozenNum = eggsPurchased / 12;
+
+    System.out.println(dozenNum);
+
     int dozenRemainder = eggsPurchased % 12;
 
-    System.out.println(dozenRemainder)
+    System.out.println(dozenRemainder);
 
 
 
