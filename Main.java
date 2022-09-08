@@ -8,8 +8,12 @@ class Main {
     System.out.println("How many eggs would you like to purchase?");
 
     int eggsPurchased = input.nextInt();
-
+    
     System.out.println("You are buying " + eggsPurchased + " eggs");
+
+    int dozenRemainder = eggsPurchased % 12;
+
+    System.out.println(dozenRemainder)
 
 
 
