@@ -13,7 +13,7 @@ class Main {
     int dozenRemainder = eggsPurchased % 12; //Mod remainder in order to find num left over
     double remainderCost = dozenRemainder * 0.45; //multiply by 0.45 cents to get cost
     System.out.println("You have:" + dozenRemainder +" lose eggs. At 45 cents each, that amounts to, $"+ remainderCost + " Dollars.");
-    double total = remainderCost + dozenCost;
+    double total = remainderCost + dozenCost; //set up total, and print total cost.
     System.out.println("Your total cost is: $"+total+" Dollars");
 
 
