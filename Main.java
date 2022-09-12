@@ -4,7 +4,7 @@ class Main {
   public static void main(String[] args) {
     //Create Scanner obj to get input
     Scanner input = new Scanner(System.in);
-    System.out.println("How many eggs would you like to purchase?");
+    System.out.println("How many eggs would you like to purchase?"); //user inputs number of eggs they wish to purchase
     int eggsPurchased = input.nextInt();
     System.out.println("You are buying " + eggsPurchased + " eggs");
     int dozenNum = eggsPurchased / 12;
